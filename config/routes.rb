@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  
+
+  root "user_authenticate#home"
   
   get 'user_authenticate/home'
   get 'user_authenticate/login'
